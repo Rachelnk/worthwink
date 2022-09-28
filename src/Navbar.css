@@ -1,0 +1,12 @@
+.navbar-brand {
+  background-color: white;
+  font-family: 'Passions Conflict', cursive;
+  font-size: 60px;
+}
+nav {
+  background-color: #3BAEEA;
+}
+.nav-link {
+  color:black !important;
+
+}
