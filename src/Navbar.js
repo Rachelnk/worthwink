@@ -29,14 +29,14 @@ function Navbar() {
           </div>       
            
      </nav>
-     <div id='home'><Home /></div>
+     <div id='home' ><Home /></div>
      <div className='container'>
+           <div id='about'><About /></div>
       
-      <div id='services'><Service /></div>
-      <div id='about'><About /></div>
-      <div id='contact'><Contact /></div>
-
-     </div>
+      
+        <div id='services' style={{paddingTop: '80px' }}><Service /></div>
+        </div>
+       <div id='contact' style={{paddingTop: '80px' }}><Contact /></div>
     </>
   )
 }
