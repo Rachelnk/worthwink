@@ -19,7 +19,7 @@ function Navbar() {
                     <ul className='navbar-nav mx-auto >'> 
                     
                       <li className='nav-item' style={{fontSize: '30px', padding: '0 20px', paddingTop: '10px !important'}}><a className="nav-link" href="#home">Home</a></li>
-                      <li className='nav-item' style={{fontSize: '30px', padding: '0 20px', paddingTop: '10px !important'}}><a className="nav-link" href="#services">Services</a></li>
+                      <li className='nav-item' style={{fontSize: '30px', padding: '0 20px', paddingTop: '10px !important'}}><a className="nav-link" href="#services">Services & Products</a></li>
                       <li className='nav-item' style={{fontSize: '30px', padding: '0 20px', paddingTop: '10px !important'}}><a className="nav-link" href="#about">About</a></li>
                       <li className='nav-item' style={{fontSize: '30px', padding: '0 20px', paddingTop: '10px !important'}}><a className="nav-link" href="#contact">Contact</a></li>
                       
@@ -29,8 +29,9 @@ function Navbar() {
           </div>       
            
      </nav>
+     <div id='home'><Home /></div>
      <div className='container'>
-      <div id='home'><Home /></div>
+      
       <div id='services'><Service /></div>
       <div id='about'><About /></div>
       <div id='contact'><Contact /></div>

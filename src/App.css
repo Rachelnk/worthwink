@@ -37,5 +37,10 @@
   }
 }
 body{
+  background-image: url('./img/body.jpg');
+  background-repeat: no-repeat;
+  background-position: relative;  
+  background-size: cover;
+  background-attachment: fixed;
   
 }
