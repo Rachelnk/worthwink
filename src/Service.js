@@ -6,15 +6,13 @@ import stationery from './img/stationery.png'
 
 function Service(){
   return(
-//     General stationery
-// Animal feeds
-// Laptops and computer accessories
-// Furniture
+
     <>
+    <div style={{ backgroundColor: '#eaf9ee', marginLeft: 'auto', marginRight: 'auto'}}> 
     <h1 style={{textAlign: 'center'}}>Services & Products</h1>
     <p className='text-center'>Worthwink Investment Limited company aims to be a long-life partner to business entities interested in providing high quality, consistent and fast services to their customer base. We supply:</p>
 
-    <div className='row' style={{marginBottom: '20px'}}>
+    <div className='row' style={{paddingTop:'30px'}} >
       <div className='col-md-6'>
         <div className='card'>
           <div className='card-body'>
@@ -35,7 +33,7 @@ function Service(){
         </div>
       </div>
     </div>
-    <div className='row'>
+    <div className='row' style={{paddingTop:'30px'}} >
       <div className='col-md-6'>
         <div className='card'>
           <div className='card-body'>
@@ -55,6 +53,7 @@ function Service(){
           
         </div>
       </div>
+    </div>
     </div>
     
 

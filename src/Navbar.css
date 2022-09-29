@@ -8,5 +8,7 @@ nav {
 }
 .nav-link {
   color:black !important;
+  font-family: 'Alkalami', serif !important;
+  texy-align: right !important;
 
 }

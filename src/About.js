@@ -18,7 +18,7 @@ function About(){
         
       </div>
     </div>
-    <div className='row' style={{paddingTop: '30px' }}>
+    <div className='row' style={{paddingTop: '50px' }}>
       <div className='col-md-4'>
         <img src={time} alt='' className='center' />
         <hr></hr>

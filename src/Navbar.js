@@ -34,9 +34,10 @@ function Navbar() {
            <div id='about'><About /></div>
       
       
-        <div id='services' style={{paddingTop: '80px' }}><Service /></div>
+     
         </div>
-       <div id='contact' style={{paddingTop: '80px' }}><Contact /></div>
+        <div id='services' style={{ paddingTop: '80px' }}><Service /></div>
+       <div id='contact' style={{ paddingTop: '80px' }}><Contact /></div>
     </>
   )
 }
