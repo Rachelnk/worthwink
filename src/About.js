@@ -1,5 +1,4 @@
 import './About.css';
-import about from './img/hero.jpg';
 import quality from './img/quality.png';
 import consistency from './img/consistency.png';
 import time from './img/clock.png';
@@ -12,7 +11,7 @@ function About(){
         <h1 className='text-center' style={{paddingTop: '150px', fontFamily: 'Nanum Gothic, sans-serif'}} >About Us</h1>
         <p className='text-center' style={{ fontFamily: 'Marcellus, serif'}}>We are a world class business entity based in Nairobi, Kenya. We deal in supplies: Stationery, Furniture, Laptop and Computer Accessories, and Animal Feeds. <br></br> Our goal is ensure 100% customer satisfaction through the delivery of quality products and services. </p>
       </div>
-      {/* <div className='col-md-1'></div> */}
+    
       <div className='col-md-6' style={{paddingTop: '50px'}}>
         <img src={'https://images.pexels.com/photos/434337/pexels-photo-434337.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'} alt='' width={500} height={400}/>
         

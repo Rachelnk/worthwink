@@ -4,7 +4,6 @@ import About from './About';
 import Service from './Service';
 import Contact from './Contact'
 import Footer from './Footer';
-import logo from './img/logo.jpeg'
 import phone from './img/telephone.png';
 import email from './img/email.png';
 
