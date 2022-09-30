@@ -8,7 +8,9 @@ nav {
 }
 .nav-link {
   color:black !important;
-  font-family: 'Alkalami', serif !important;
+  /* font-family: 'Alkalami', serif !important;
+   */
+   font-family: 'Nanum Gothic', sans-serif !important;
   text-align: right !important;
   /* padding-left: 50px !important; */
 
