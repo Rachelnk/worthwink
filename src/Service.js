@@ -9,7 +9,7 @@ function Service(){
 
     <>
     <div style={{ backgroundColor: 'white', marginLeft: 'auto', marginRight: 'auto'}}> 
-    <h1 style={{ textAlign: 'center', fontFamily: 'Nanum Gothic, sans-serif', paddingTop: '20px'}}>Services & Products</h1>
+    <h1 style={{ textAlign: 'center', fontFamily: 'Nanum Gothic, sans-serif', paddingTop: '20px'}}>Products</h1>
     <p style={{ fontFamily: 'Marcellus, serif' }} className='text-center'>Worthwink Investment Limited company aims to be a long-life partner to business entities interested in providing high quality, consistent and fast services to their customer base. We supply:</p>
 
     <div className='row' style={{paddingTop:'30px'}} >

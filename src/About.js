@@ -21,7 +21,7 @@ function About(){
       <div className='col-md-4'>
         <img src={time} alt='' className='center' />
         <hr></hr>
-        <h5 style={{fontFamily: 'Sawarabi Mincho, serif'}} className='text-center'>Timely delivery</h5>
+        <h5 style={{fontFamily: 'Sawarabi Mincho, serif'}} className='text-center'>Timely delivery.</h5>
       </div>
       <div className='col-md-4'>
       <img src={consistency} alt='' className='center' />

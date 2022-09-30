@@ -38,7 +38,7 @@ function Navbar() {
                     
                       <li className='nav-item' style={{ fontSize: '25px', padding: '0 40px !important', paddingTop: '10px !important' }}><a className="nav-link" href="#home">Home</a></li>
                       <li className='nav-item' style={{fontSize: '25px', padding: '0 20px', paddingTop: '10px !important'}}><a className="nav-link" href="#services">About</a></li>
-                      <li className='nav-item' style={{fontSize: '25px', padding: '0 20px', paddingTop: '10px !important'}}><a className="nav-link" href="#about">Services & Products</a></li>
+                      <li className='nav-item' style={{fontSize: '25px', padding: '0 20px', paddingTop: '10px !important'}}><a className="nav-link" href="#about"> Products </a></li>
                       <li className='nav-item' style={{fontSize: '25px', padding: '0 20px', paddingTop: '10px !important'}}><a className="nav-link" href="#contact">Contact</a></li>
                       
                                             
