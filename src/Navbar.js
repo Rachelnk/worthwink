@@ -3,6 +3,7 @@ import Home from './Home';
 import About from './About';
 import Service from './Service';
 import Contact from './Contact'
+import Footer from './Footer';
 import logo from './img/logo.jpeg'
 
 
@@ -36,6 +37,7 @@ function Navbar() {
            <div id='services' style={{ paddingTop: '80px' }}><Service /></div>
       </div>
        <div id='contact' style={{ paddingTop: '80px' }}><Contact /></div>
+       <div><Footer /></div>
     </>
   )
 }

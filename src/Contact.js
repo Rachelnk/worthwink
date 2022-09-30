@@ -1,6 +1,4 @@
-import instagram from './img/instagram.png';
-import facebook from './img/fb.png';
-import linkedin from './img/linkedin.png';
+
 import phone from './img/telephone.png';
 import email from './img/email.png';
 import './Contact.css'
@@ -11,15 +9,15 @@ function Contact(){
     <footer style={{backgroundColor: '#3baeea' }}>
       <div className='row' style={{paddingLeft: '30px', paddingBottom: '20px' }}>
         <div className='col-md-6'>
-          <h5 style={{ fontFamily: 'Passions Conflict, cursive'}}>Worthwink</h5>
+          <h5 style={{ fontFamily: 'Passions Conflict, cursive', fontSize: '50px' }}>Worthwink</h5>
           <p>Where quality and consistency matters.</p>
-          <h5 >Connect</h5>
+          {/* <h5 >Connect</h5>
           <p>
            <a href=''><img src={instagram} alt='' width={50} style={{paddingRight: '10px'}} /></a> 
            <a href=''><img src={facebook} alt='' width={50} style={{paddingRight: '10px'}}/></a> 
            <a href=''><img src={linkedin} alt='' width={50} /></a> 
           </p>
-       
+        */}
 
         </div>
         <div className='col-md-6'>
@@ -29,6 +27,7 @@ function Contact(){
         </div>
       </div>
     </footer>
+    
     </>
   )
 }

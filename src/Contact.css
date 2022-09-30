@@ -13,3 +13,7 @@ span {
   display: flex;
   align-items: center;
 }
+.contact-footer{
+  background-color: #eaf9ee;
+  height:10vh;
+}
