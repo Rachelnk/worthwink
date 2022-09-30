@@ -5,13 +5,30 @@ import Service from './Service';
 import Contact from './Contact'
 import Footer from './Footer';
 import logo from './img/logo.jpeg'
+import phone from './img/telephone.png';
+import email from './img/email.png';
 
 
 function Navbar() {
   return (
     <>
+    <div style={{backgroundColor: '#eaf9ee'}}>
+      <div class="aligned" style={{ paddingTop: '10px', paddingLeft: '500px' }}>
+      <p style= {{fontFamily: 'Marcellus, serif'}}>
+         <img src={phone} alt='' width={25}/> <span>+254797616894</span>
+          <img src={email} alt='' width={25}/> <span> worthwinkinvestmentlimited@gmail.com</span>         
+          <img src={'https://cdn-icons-png.flaticon.com/512/3177/3177262.png'} alt='' width={25}/> <span> Nairobi, Kenya</span>
+      </p> 
+
+
+      </div>
+         
+      </div>
       <nav className='navbar navbar-expand-lg navbar-dark sticky-top'>
-      <a className="navbar-brand" href="#home" style={{color: '#3BAEEA', fontFamily: 'Passions Conflict, cursive'}}>Worthwink</a>
+      <a className="navbar-brand" href="#home" style={{color: 'white', fontFamily: 'Passions Conflict, cursive'}}>Worthwink<br></br>
+      {/* Where Consistency and quality matters. */}
+      
+      </a>
          
         <div className="container-fluid">
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
@@ -34,7 +51,7 @@ function Navbar() {
      <div id='home' ><Home /></div>
      <div className='container'>
            <div id='about'><About /></div>
-           <div id='services' style={{ paddingTop: '80px' }}><Service /></div>
+           <div id='services' style={{ paddingTop: '80px', marginBottom: '50px' }}><Service /></div>
       </div>
        <div id='contact' style={{ paddingTop: '80px' }}><Contact /></div>
        <div><Footer /></div>

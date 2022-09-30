@@ -1,10 +1,15 @@
 .navbar-brand {
-  background-color: white;
+  background-color: #3BAEEA;
   font-family: 'Passions Conflict', cursive;
-  font-size: 40px;
+  font-size: 45px;
+  padding-right: 30px;
+  padding-left: 30px;
+  margin-left: 30px;
+  
 }
 nav {
-  background-color: #3BAEEA;
+  /* background-color: #3BAEEA; */
+  background-color: white;
 }
 .nav-link {
   color:black !important;
@@ -17,6 +22,13 @@ nav {
 }
 .navbar-nav {
   padding-left: 500px;
+}
+span {
+  padding: 10px;
+}
+.aligned {
+  display: flex;
+  align-items: center;
 }
 
 

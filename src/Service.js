@@ -8,16 +8,22 @@ function Service(){
   return(
 
     <>
-    <div style={{ backgroundColor: '#eaf9ee', marginLeft: 'auto', marginRight: 'auto'}}> 
-    <h1 style={{textAlign: 'center'}}>Services & Products</h1>
+    <div style={{ backgroundColor: 'white', marginLeft: 'auto', marginRight: 'auto'}}> 
+    <h1 style={{ textAlign: 'center', fontFamily: 'Nanum Gothic, sans-serif', paddingTop: '20px'}}>Services & Products</h1>
     <p style={{ fontFamily: 'Marcellus, serif' }} className='text-center'>Worthwink Investment Limited company aims to be a long-life partner to business entities interested in providing high quality, consistent and fast services to their customer base. We supply:</p>
 
     <div className='row' style={{paddingTop:'30px'}} >
       <div className='col-md-6'>
         <div className='card'>
-          <div className='card-body'>
-            <h5 style={{textAlign:'center'}}>General Stationery</h5>
+          <div className='card-body' style={{marginLeft: '40px'}}>
+            <div className="left-stationery"></div>
+            <div className="right-stationery">
+              <div className="content">
+              <h6 style={{textAlign:'center', fontFamily: 'PT Mono, monospace'}}>General Stationery</h6>
             <img src={stationery} alt=''  className="center"/>
+         
+              </div>
+            </div>
           </div>
           
         </div>
@@ -26,8 +32,14 @@ function Service(){
       <div className='col-md-6'>
         <div className='card'>
           <div className='card-body'>
-            <h5 style={{textAlign:'center'}}>Furniture</h5>
-            <img src={furniture} alt=''npm  className="center"/>
+          <div className="left-furniture"></div>
+          <div className="right-furniture">
+            <div className='content'>
+            <h6 style={{textAlign:'center', fontFamily: 'PT Mono, monospace'}}>Furniture</h6>
+            <img src={furniture} alt=''  className="center"/>
+          
+            </div>
+          </div>
           </div>
           
         </div>
@@ -35,11 +47,16 @@ function Service(){
     </div>
     <div className='row' style={{paddingTop:'30px'}} >
       <div className='col-md-6'>
-        <div className='card'>
-          <div className='card-body'>
-            <h5 style={{textAlign:'center'}}>Animal Feeds</h5>
+        <div className='card' >
+          <div className='card-body' style={{marginLeft: '40px'}}>
+          <div className="left-feeds"></div>
+          <div className="right-feeds">
+            <div className='content'>
+            <h6 style={{ textAlign:'center', fontFamily: 'PT Mono, monospace'}}>Animal Feeds</h6>
             <img src={feeds} alt=''  className="center"/>
-          </div>
+          
+            </div>
+          </div></div>
           
         </div>
       </div>
@@ -47,9 +64,14 @@ function Service(){
       <div className='col-md-6'>
         <div className='card'>
           <div className='card-body'>
-            <h5 style={{textAlign:'center'}}>Laptops and computer accessories</h5>
+          <div className="left-computer"></div>
+          <div className="right-computer">
+            <div className='content'>
+            <h6 style={{textAlign:'center', fontFamily: 'PT Mono, monospace'}}>Computer Accessories</h6>
             <img src={computer} alt=''  className="center"/>
-          </div>
+          
+            </div>
+          </div> </div>
           
         </div>
       </div>
