@@ -6,7 +6,7 @@
 }
  .card {
   padding-top: '40px';
-  /* border: none; */
+  border: none;
  }
  p{
   fontFamily: 'Marcellus, serif'
