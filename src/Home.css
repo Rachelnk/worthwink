@@ -1,10 +1,8 @@
-.banner-image{
-  background-image: url('https://images.pexels.com/photos/434337/pexels-photo-434337.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
-  height: 500px;
+.home img{
+  width: 100%;
+  object-position: center;
+  object-fit: cover;
+  height: 600px;
 }
 
 .banner-text{
