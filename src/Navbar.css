@@ -9,6 +9,12 @@ nav {
 .nav-link {
   color:black !important;
   font-family: 'Alkalami', serif !important;
-  texy-align: right !important;
+  text-align: right !important;
+  /* padding-left: 50px !important; */
 
 }
+.navbar-nav {
+  padding-left: 500px;
+}
+
+

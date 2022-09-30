@@ -4,4 +4,12 @@ h5 {
 }
 p{
   font-size: 20px;
+  font-family: 'Nanum Gothic', sans-serif; 
+}  
+span {
+  padding: 10px;
+}
+.aligned {
+  display: flex;
+  align-items: center;
 }

@@ -3,15 +3,15 @@ import facebook from './img/fb.png';
 import linkedin from './img/linkedin.png';
 import phone from './img/telephone.png';
 import email from './img/email.png';
-
 import './Contact.css'
+
 function Contact(){
   return(
     <>
     <footer style={{backgroundColor: '#3baeea' }}>
       <div className='row' style={{paddingLeft: '30px', paddingBottom: '20px' }}>
         <div className='col-md-6'>
-          <h5>Worthwink</h5>
+          <h5 style={{ fontFamily: 'Passions Conflict, cursive'}}>Worthwink</h5>
           <p>Where quality and consistency matters.</p>
           <h5 >Connect</h5>
           <p>
@@ -24,8 +24,8 @@ function Contact(){
         </div>
         <div className='col-md-6'>
             <h5>Contact Us:</h5>
-            <span><img src={phone} alt='' width={30}/> </span> <p>+254797616894</p><br></br>
-            <span><img src={email} alt='' width={30}/></span> <p>worthwinkinvestmentlimited@gmail.com</p>
+            <div class="aligned"><img src={phone} alt='' width={30}/> <span><p>+254797616894</p></span> <br></br></div> 
+            <div class="aligned"><img src={email} alt='' width={30}/> <span> <p>worthwinkinvestmentlimited@gmail.com</p></span></div> 
         </div>
       </div>
     </footer>
