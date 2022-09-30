@@ -38,7 +38,7 @@ function Home(){
           alt="..."
         />
         <div className="carousel-caption d-none d-md-block">
-          <h5 style={{color: '#3baeea', fontFamily: 'Sawarabi Mincho, serif', paddingBottom: '500px' }} className='text-center'>Get comfortable, aesthetically pleasing and affordable furniture made from the finest wood. </h5>
+          <h5 style={{color: '#3baeea', fontFamily: 'Sawarabi Mincho, serif', paddingBottom: '250px' }} className='text-center'>Get comfortable, aesthetically pleasing and affordable furniture made from the finest wood. </h5>
           
         </div>
       </div>
@@ -49,7 +49,7 @@ function Home(){
           alt="..."
         />
         <div className="carousel-caption d-none d-md-block">
-          <h5 style={{color: '#3baeea', fontFamily: 'Sawarabi Mincho, serif', paddingBottom: '500px' }} className='text-center'> Get affordable and nutrious animal feeds.</h5>
+          <h5 style={{color: '#3baeea', fontFamily: 'Sawarabi Mincho, serif', paddingBottom: '250px' }} className='text-center'> Get affordable and nutrious animal feeds.</h5>
           
         </div>
       </div>
@@ -60,7 +60,7 @@ function Home(){
           alt="..."
         />
         <div className="carousel-caption d-none d-md-block">
-          <h5 style={{color: '#3baeea', fontFamily: 'Sawarabi Mincho, serif', paddingBottom: '500px' }} className='text-center'>Are you looking for the latest models of laptops or computer accessories that are compatible with all Operating Systems? <br></br> Well, look no further. We got you.</h5>
+          <h5 style={{color: '#3baeea', fontFamily: 'Sawarabi Mincho, serif', paddingBottom: '250px' }} className='text-center'>Are you looking for the latest models of laptops or computer accessories that are compatible with all Operating Systems? <br></br> Well, look no further. We got you.</h5>
           
         </div>
       </div>
@@ -71,7 +71,7 @@ function Home(){
           alt="..."
         />
         <div className="carousel-caption d-none d-md-block">
-          <h5 style={{color: '#3baeea', fontFamily: 'Sawarabi Mincho, serif', paddingBottom: '500px' }} className='text-center'>Your one-stop shop for stationery.</h5>
+          <h5 style={{color: '#3baeea', fontFamily: 'Sawarabi Mincho, serif', paddingBottom: '250px' }} className='text-center'>Your one-stop shop for stationery.</h5>
           
         </div>
       </div>
