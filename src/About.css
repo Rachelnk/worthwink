@@ -8,3 +8,9 @@
 p{ 
   fontFamily: 'Marcellus, serif'
 }
+
+@media screen and (max-width: 768px) {
+    .about{
+      height: 40vh;
+    }
+}

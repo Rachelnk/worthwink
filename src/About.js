@@ -7,7 +7,7 @@ function About(){
   return(
     <>
     <div className='row'>
-      <div className='col-md-6' style={{backgroundColor: '#eaf9ee', height: '75vh'}}>
+      <div className='col-md-6 about' style={{backgroundColor: '#eaf9ee', height: '75vh'}}>
         <h1 className='text-center' style={{paddingTop: '150px', fontFamily: 'Nanum Gothic, sans-serif'}} >About Us</h1>
         <p className='text-center' style={{ fontFamily: 'Marcellus, serif'}}>We are a world class business entity based in Nairobi, Kenya. We deal in supplies: Stationery, Furniture, Laptop and Computer Accessories, and Animal Feeds. <br></br> Our goal is ensure 100% customer satisfaction through the delivery of quality products and services. </p>
       </div>

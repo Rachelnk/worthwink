@@ -26,8 +26,8 @@ nav {
 @media screen and (max-width: 768px) {
 
   .navbar-nav{
+    
     float: right;
-    padding-left: 00px;
   }
   .navbar-brand{
     float: left;
