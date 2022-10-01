@@ -14,8 +14,8 @@ function Navbar() {
     <div style={{backgroundColor: '#eaf9ee'}}>
       <div class="aligned" style={{ paddingTop: '10px', paddingLeft: '500px' }}>
       <p style= {{fontFamily: 'Marcellus, serif'}}>
-         <img src={phone} alt='' width={25}/> <span>+254797616894</span>
-          <img src={email} alt='' width={25}/> <span> worthwinkinvestmentlimited@gmail.com</span>         
+         <img src={phone} alt='' width={25} /> <span style={{paddingRight: '30px'}}>+254797616894</span>
+          <img src={email} alt='' width={25}/> <span style={{paddingRight: '30px'}}> worthwinkinvestmentlimited@gmail.com</span>         
           <img src={'https://cdn-icons-png.flaticon.com/512/3177/3177262.png'} alt='' width={25}/> <span> Nairobi, Kenya</span>
       </p> 
 
@@ -36,9 +36,9 @@ function Navbar() {
             <div className="collapse navbar-collapse" id="collapsibleNavbar">
                     <ul className='navbar-nav mx-auto >'> 
                     
-                      <li className='nav-item' style={{ fontSize: '25px', padding: '0 40px !important', paddingTop: '10px !important' }}><a className="nav-link" href="#home">Home</a></li>
-                      <li className='nav-item' style={{fontSize: '25px', padding: '0 20px', paddingTop: '10px !important'}}><a className="nav-link" href="#services">About</a></li>
-                      <li className='nav-item' style={{fontSize: '25px', padding: '0 20px', paddingTop: '10px !important'}}><a className="nav-link" href="#about"> Products </a></li>
+                      <li className='nav-item' style={{ fontSize: '25px', padding: '0 20px ', paddingTop: '10px !important' }}><a className="nav-link" href="#home">Home</a></li>
+                      <li className='nav-item' style={{fontSize: '25px', padding: '0 20px', paddingTop: '10px !important'}}><a className="nav-link" href="#about">About</a></li>
+                      <li className='nav-item' style={{fontSize: '25px', padding: '0 20px', paddingTop: '10px !important'}}><a className="nav-link" href="#services"> Products </a></li>
                       <li className='nav-item' style={{fontSize: '25px', padding: '0 20px', paddingTop: '10px !important'}}><a className="nav-link" href="#contact">Contact</a></li>
                       
                                             
