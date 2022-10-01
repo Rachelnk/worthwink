@@ -91,3 +91,37 @@
     margin-top: -200px;
     background-color: #eaf9ee;
  }
+ @media screen and (max-width: 768px) {
+  .card-body{
+    margin-left: 40px;
+  }
+ 
+ }
+ @media screen and (max-width: 990px), (min-width: 768px) {
+
+  .right-furniture {
+    width: 50%;
+      min-height: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding:30px;
+      border-radius: 8px;
+      margin-left: 50px;
+      margin-top: -200px;
+      background-color: #eaf9ee;
+  }
+
+  .right-computer{
+    width: 50%;
+      min-height: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding:30px;
+      border-radius: 8px;
+      margin-left: 50px;
+      margin-top: -200px;
+      background-color: #eaf9ee;
+   }
+ }

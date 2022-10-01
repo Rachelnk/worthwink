@@ -30,5 +30,21 @@ span {
   display: flex;
   align-items: center;
 }
+.navbar-toggler-icon{
+  border-color:black !important;
+}
+@media screen and (max-width: 1015px) {
+  .top-nav p {
+    background-color:red;
+    width: 240px;
+    text-align: left;
+  
+  }
+  .top-nav img{
+    display: none;
+  }
+}
+
+
 
 

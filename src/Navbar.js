@@ -11,18 +11,37 @@ import email from './img/email.png';
 function Navbar() {
   return (
     <>
-    <div style={{backgroundColor: '#eaf9ee'}}>
+    <div className='row' style={{backgroundColor: '#eaf9ee'}}>
+      <div className='col-md-1'></div>
+      <div className='col-md-10'>
+      <div className="top-nav" style={{backgroundColor: '#eaf9ee'}}>
+      <div class="aligned" style={{ paddingTop: '10px' }}>
+      <p style= {{fontFamily: 'Marcellus, serif'}}>
+         <img src={phone} alt='' width={25} /> <span style={{paddingRight: '30px'}}>+254797616894</span>
+       </p> 
+      <p style= {{fontFamily: 'Marcellus, serif'}}> 
+      <img src={email} alt='' width={25}/> <span style={{paddingRight: '30px'}}> worthwinkinvestmentlimited@gmail.com</span>         
+        </p>
+      <p style= {{fontFamily: 'Marcellus, serif'}}>
+      <img src={'https://cdn-icons-png.flaticon.com/512/3177/3177262.png'} alt='' width={25}/> <span> Nairobi, Kenya</span>
+     
+      </p>
+      </div>
+         
+    </div>
+      </div>
+      <div className='col-md-1'></div>
+    </div>
+    {/* <div className="top-nav" style={{backgroundColor: '#eaf9ee'}}>
       <div class="aligned" style={{ paddingTop: '10px', paddingLeft: '500px' }}>
       <p style= {{fontFamily: 'Marcellus, serif'}}>
          <img src={phone} alt='' width={25} /> <span style={{paddingRight: '30px'}}>+254797616894</span>
           <img src={email} alt='' width={25}/> <span style={{paddingRight: '30px'}}> worthwinkinvestmentlimited@gmail.com</span>         
           <img src={'https://cdn-icons-png.flaticon.com/512/3177/3177262.png'} alt='' width={25}/> <span> Nairobi, Kenya</span>
       </p> 
-
-
       </div>
          
-      </div>
+    </div> */}
       <nav className='navbar navbar-expand-lg navbar-dark sticky-top'>
       <a className="navbar-brand" href="#home" style={{color: 'white', fontFamily: 'Passions Conflict, cursive'}}>Worthwink<br></br>
       {/* Where Consistency and quality matters. */}
