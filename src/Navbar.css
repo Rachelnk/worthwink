@@ -1,5 +1,5 @@
 .navbar-brand {
-  background-color: #3BAEEA;
+  background-color: white;
   font-family: 'Passions Conflict', cursive;
   font-size: 45px;
   padding-right: 30px;
@@ -34,14 +34,9 @@ span {
   border-color:black !important;
 }
 @media screen and (max-width: 1015px) {
-  .top-nav p {
-    background-color:red;
-    width: 240px;
-    text-align: left;
-  
-  }
-  .top-nav img{
+  .top-nav {
     display: none;
+
   }
 }
 

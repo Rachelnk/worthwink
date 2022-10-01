@@ -36,14 +36,17 @@
     transform: rotate(360deg);
   }
 }
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding:0;
+  
+}
 @media screen and (max-width: 768px) {
 
 body{
-  background-image: url('./img/body.jpg');
-  background-repeat: no-repeat;
-  background-position: relative;  
-  background-size: cover;
-  background-attachment: fixed;
+  
   
 }
 }

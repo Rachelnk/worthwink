@@ -12,3 +12,9 @@
 p{
 font-family: 'Nanum Gothic', sans-serif; 
 }
+
+@media screen and (max-width: 760px) {
+  .carousel-caption {
+    margin-bottom: 000px;
+  }
+}

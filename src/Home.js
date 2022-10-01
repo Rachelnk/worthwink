@@ -37,7 +37,7 @@ function Home(){
           className="d-block w-100"
           alt="..."
         />
-        <div className="carousel-caption d-none d-md-block">
+        <div className="carousel-caption d-md-block">
           <h5 style={{color: 'black', fontFamily: 'Abel, sans-serif', marginBottom: '250px', backgroundColor: 'rgb(255, 255, 255, 50%)', paddingBottom: '20px', borderRadius: '60px 00px' }} className='text-center'>Get comfortable, aesthetically pleasing and affordable furniture made from the finest wood. </h5>
           
         </div>
@@ -48,7 +48,7 @@ function Home(){
           className="d-block w-100"
           alt="..."
         />
-        <div className="carousel-caption d-none d-md-block">
+        <div className="carousel-caption d-md-block">
           <h5 style={{color: 'black', fontFamily: 'Abel, sans-serif', marginBottom: '250px', backgroundColor: 'rgb(255, 255, 255, 50%)', paddingBottom: '20px', borderRadius: '60px 00px' }} className='text-center'> Get affordable and nutrious animal feeds.</h5>
           
         </div>
@@ -59,7 +59,7 @@ function Home(){
           className="d-block w-100"
           alt="..."
         />
-        <div className="carousel-caption d-none d-md-block">
+        <div className="carousel-caption d-md-block">
           <h5 style={{color: 'black', fontFamily: 'Abel, sans-serif', marginBottom: '250px', backgroundColor: 'rgb(255, 255, 255, 50%)', paddingBottom: '20px', borderRadius: '60px 00px' }} className='text-center'>Are you looking for the latest models of laptops? <br></br> Well, look no further. We got you.</h5>
           
         </div>
@@ -70,7 +70,7 @@ function Home(){
           className="d-block w-100"
           alt="..."
         />
-        <div className="carousel-caption d-none d-md-block">
+        <div className="carousel-caption d-sm-block">
           <h5 style={{color: 'black', fontFamily: 'Abel, sans-serif', marginBottom: '250px', backgroundColor: 'rgb(255, 255, 255, 50%)', paddingBottom: '20px',borderRadius: '60px 00px' }} className='text-center'>Your one-stop shop for stationery.</h5>
           
         </div>
