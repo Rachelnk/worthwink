@@ -5,7 +5,7 @@ import linkedin from './img/linkedin.png';
  function Footer() {
   return(
     // style= {{}}
-    <footer className='contact-footer' style={{ backgroundColor: '#eaf9ee' }}>
+    <footer className='contact-footer' style={{ backgroundColor: '#eaf9ee', height: '10vh' }}>
     <p className='text-center' style={{ paddingTop: '15px',fontFamily: 'Marcellus, serif', paddingLeft: '60px'}}> &#169; Copyright 2022, Worthwink Investment Limited.
         <span style={{textAlign: 'right', paddingLeft: '700px'}}>
          <a href='https://instagram.com/worthwinkinvestment?igshid=YmMyMTA2M2Y='><img src={instagram} alt='' width={40} style={{paddingRight: '20px'}} /></a> 

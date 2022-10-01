@@ -21,17 +21,17 @@ function About(){
       <div className='col-md-4'>
         <img src={time} alt='' className='center' />
         <hr></hr>
-        <h5 style={{fontFamily: 'Sawarabi Mincho, serif'}} className='text-center'>Timely delivery.</h5>
+        <h5 style={{fontFamily: 'Sawarabi Mincho, serif', fontSize: '25px'}} className='text-center'>Timely delivery.</h5>
       </div>
       <div className='col-md-4'>
       <img src={consistency} alt='' className='center' />
       <hr></hr>
-      <h5 style={{fontFamily: 'Sawarabi Mincho, serif'}} className='text-center'>We pride ourselves on our consistency.</h5>
+      <h5 style={{fontFamily: 'Sawarabi Mincho, serif', fontSize: '25px' }} className='text-center'>We pride ourselves on our consistency.</h5>
       </div>
       <div className='col-md-4'>
       <img src={quality} alt='' className='center' />
       <hr></hr>
-      <h5 style={{fontFamily: 'Sawarabi Mincho, serif'}} className='text-center'>Quality Products and Services.</h5>
+      <h5 style={{fontFamily: 'Sawarabi Mincho, serif', fontSize: '25px'}} className='text-center'>Quality Products and Services.</h5>
       </div>
     </div>
     </>
