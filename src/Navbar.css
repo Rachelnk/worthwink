@@ -23,6 +23,23 @@ nav {
 .navbar-nav {
   padding-left: 500px;
 }
+@media screen and (max-width: 768px) {
+
+  .navbar-nav{
+    float: right;
+    padding-left: 00px;
+  }
+  .navbar-brand{
+    float: left;
+    padding-left: 000px;
+  }
+
+}
+@media screen and (max-width: 1310px){
+  .navbar-nav{
+    padding-left: 00px;
+  }
+}
 span {
   padding: 5px;
 }

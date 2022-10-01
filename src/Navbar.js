@@ -49,7 +49,7 @@ function Navbar() {
       </div>
          
     </div> */}
-      <nav className='navbar navbar-expand-lg navbar-dark sticky-top'>
+      <nav className='navbar navbar-expand-lg navbar-light sticky-top'>
       <a className="navbar-brand" href="#home" style={{color: '#3BAEEA', fontFamily: 'Passions Conflict, cursive'}}>Worthwink<br></br>
       {/* Where Consistency and quality matters. */}
       
@@ -57,7 +57,7 @@ function Navbar() {
          
         <div className="container-fluid">
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
-            <span className="navbar-toggler-icon"></span>
+            <span style={{borderColor: 'black !important'}} className="navbar-toggler-icon"></span>
           </button>
             <div className="collapse navbar-collapse" id="collapsibleNavbar">
                     <ul className='navbar-nav mx-auto >'> 
