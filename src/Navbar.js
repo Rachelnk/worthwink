@@ -39,16 +39,7 @@ function Navbar() {
       </div>
       <div className='col-md-1'></div>
     </div>
-    {/* <div className="top-nav" style={{backgroundColor: '#eaf9ee'}}>
-      <div class="aligned" style={{ paddingTop: '10px', paddingLeft: '500px' }}>
-      <p style= {{fontFamily: 'Marcellus, serif'}}>
-         <img src={phone} alt='' width={25} /> <span style={{paddingRight: '30px'}}>+254797616894</span>
-          <img src={email} alt='' width={25}/> <span style={{paddingRight: '30px'}}> worthwinkinvestmentlimited@gmail.com</span>         
-          <img src={'https://cdn-icons-png.flaticon.com/512/3177/3177262.png'} alt='' width={25}/> <span> Nairobi, Kenya</span>
-      </p> 
-      </div>
-         
-    </div> */}
+    
       <nav className='navbar navbar-expand-lg navbar-light sticky-top'>
       <a className="navbar-brand" href="#home" style={{color: '#3BAEEA', fontFamily: 'Passions Conflict, cursive'}}>Worthwink<br></br>
       {/* Where Consistency and quality matters. */}

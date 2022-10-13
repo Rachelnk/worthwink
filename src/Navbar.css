@@ -2,9 +2,8 @@
   background-color: white;
   font-family: 'Passions Conflict', cursive;
   font-size: 45px;
-  padding-right: 30px;
-  padding-left: 30px;
-  margin-left: 30px;
+  /* padding-right: 10px; */
+  margin-left: 10px;
   
 }
 nav {
@@ -13,25 +12,27 @@ nav {
 }
 .nav-link {
   color:black !important;
-  /* font-family: 'Alkalami', serif !important;
-   */
-   font-family: 'Nanum Gothic', sans-serif !important;
+  font-family: 'Nanum Gothic', sans-serif !important;
   text-align: right !important;
-  /* padding-left: 50px !important; */
 
 }
+.nav-link:hover {
+  color: #3baeea!important;
+}
 .navbar-nav {
-  padding-left: 500px;
+  padding-left: 400px;
 }
 @media screen and (max-width: 768px) {
 
   .navbar-nav{
     
-    float: right;
+    /* float: right; */
+    padding-left: 0px;
   }
   .navbar-brand{
-    float: left;
-    padding-left: 000px;
+    /* float: left; */
+    /* padding-left: 000px; */
+    margin-left: 000px;
   }
 
 }
