@@ -2,16 +2,22 @@ import './Service.css';
 import feeds from './img/feed.png';
 import furniture from './img/furnitures.png';
 import computer from './img/computer.png';
-import stationery from './img/stationery.png'
+import stationery from './img/stationery.png';
+import { Fade, Zoom } from "react-awesome-reveal";
+ 
 
 function Service(){
   return(
 
     <>
     <div style={{ backgroundColor: 'white', marginLeft: 'auto', marginRight: 'auto'}}> 
-    <h1 style={{ textAlign: 'center', fontFamily: 'Nanum Gothic, sans-serif', paddingTop: '20px'}}>Products</h1>
-    <p style={{ fontFamily: 'Marcellus, serif' }} className='text-center'>Worthwink Investment Limited company aims to be a long-life partner to business entities interested in providing high quality, consistent and fast services to their customer base. We supply:</p>
-
+      <Fade>
+           <h1 style={{ textAlign: 'center', fontFamily: 'Nanum Gothic, sans-serif', paddingTop: '20px'}}>Products</h1>
+    
+             <p style={{ fontFamily: 'Marcellus, serif' }} className='text-center'>Worthwink Investment Limited company aims to be a long-life partner to business entities interested in providing high quality, consistent and fast services to their customer base. We supply:</p>
+      </Fade>
+   
+    <Zoom>
     <div className='row' style={{paddingTop:'30px'}} >
       <div className='col-md-6'>
         <div className='card'>
@@ -45,6 +51,7 @@ function Service(){
         </div>
       </div>
     </div>
+    
     <div className='row' style={{paddingTop:'30px'}} >
       <div className='col-md-6'>
         <div className='card' >
@@ -76,6 +83,8 @@ function Service(){
         </div>
       </div>
     </div>
+    </Zoom>
+    
     </div>
     
 
